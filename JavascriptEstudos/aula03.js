@@ -17,4 +17,10 @@ if(idade >= 18){
     console.log("Voce é criança")
 }
 
+let obj1 = {nome : "Bruno"}
+let obj2 = {nome : "Bruno"}
 
+console.log(obj1 === obj2) 
+
+// == faz comparção rasa por exemplo 1 == "1" é true 
+// === faz comparação a nivel de tipo de dado por exemplo 1 === "1" é false
