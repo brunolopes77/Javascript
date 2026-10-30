@@ -24,3 +24,15 @@ console.log(obj1 === obj2)
 
 // == faz comparção rasa por exemplo 1 == "1" é true 
 // === faz comparação a nivel de tipo de dado por exemplo 1 === "1" é false
+
+{
+    let nome = "Bruno"  // A variavel deixa o espaço de memoria livre para outra variavel assim quando termina o bloco
+    console.log(nome)
+}
+
+/* Operadores lógicos :
+&&
+||
+!
+Restornam valores booleanos 
+*/
